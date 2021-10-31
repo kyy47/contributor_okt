@@ -1,0 +1,28 @@
+nav {
+    background-color: cornflowerblue;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+  
+ 
+
+
+
+.isi{
+    padding-left: 10%;
+} 
+.tombol {
+    border: solid 2px rgb(67, 19, 180);
+    text-decoration: none;
+    background-color:cadetblue;
+    width: 150px;
+    height: 30px;
+
+}
+.tombol:hover {
+    background-color: #000fff;
+    border-color:#000f ;
+  
+
+}

@@ -1,0 +1,65 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.pembungkus{
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-shadow: #333 23px 23px 23px 23px;
+
+
+}
+.penengah {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.arahbar {
+    overflow: hidden;
+    background-color:blue;
+
+}
+.arahbar a {
+    float: left;
+    display: block;
+    color: floralwhite;
+    padding: 14px 14px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.arahbar a:hover {
+    background-color: floralwhite;
+    color: black;
+}
+.kolom {
+    display: table;
+    padding: 1%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    width: 10%;
+    
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.kaki {
+    position: relative;
+    clear: both;
+    padding: 1%;
+    background-color: brown;
+    margin-top: -0%;
+}

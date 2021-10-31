@@ -1,0 +1,33 @@
+table, td, tr {
+    border: solid #000 2px;
+    border-collapse: collapse;
+    width : 800px;
+    text-align: center;
+    padding: 6px;    
+
+}
+
+th{
+    background-color: #ff8080;
+    border: solid #000 2px;
+
+   }
+
+.tombol {
+    border: solid 2px rgb(67, 19, 180);
+    text-decoration: none;
+    background-color:cadetblue;
+    width: 150px;
+    height: 30px;
+
+}
+.tombol:hover {
+    background-color: #000fff;
+    border-color:#000f ;
+  
+
+}
+img {
+    padding: 10px;
+
+}
